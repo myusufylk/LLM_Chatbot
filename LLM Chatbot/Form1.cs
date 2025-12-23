@@ -68,7 +68,7 @@ namespace LLM_Chatbot
         private async Task<string> SendToGemini()
         {
             // NOT: Kodunuzda paylaştığınız API Key'i buraya ekledim.
-            string apiKey = "AIzaSyCG_2CLuvMYL6e1RBOqG0RCbnfvXVn3tX0";
+            string apiKey = "API KEY";
 
             
             string url = $"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={apiKey}";
